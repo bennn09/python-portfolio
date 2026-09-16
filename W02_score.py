@@ -1,10 +1,9 @@
-student = {
-"name": "小明",
-"class": "205",
-"chinese": 78,
-"english": 85,
-"math": 72
-}
+students = [
+  {"name": "小明", "math": 72},
+  {"name": "小華", "math": 95},
+  {"name": "小美", "math": 65}
+]
 
-print(student["name"])
-print(student["math"])
+
+for s in students:
+  print(s["name"],s["math"])
