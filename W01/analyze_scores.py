@@ -18,5 +18,5 @@ if score>=60
 ]
 print("及格人數:",len(passed)) #輸出:9
 
-oppesite=sorted(scores,reverse=True)
-print("高到低成績排序:",oppesite)
+ranking=sorted(scores,reverse=True)
+print("高到低成績排序:",ranking)
