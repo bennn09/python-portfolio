@@ -13,18 +13,6 @@ for s in students:
   math = int(s["math"])
   average = (chinese + english + math) / 3
   print(s["name"], average)
-
-for s in students:
-  chinese = int(s["chinese"])
-  english = int(s["english"])
-  math = int(s["math"])
-  average = (chinese + english + math) / 3
-  print(s["name"], average)
+  
 for s in students:
   print(s["name"])
-for s in students:
-  chinese = int(s["chinese"])
-  english = int(s["english"])
-  math = int(s["math"])
-  average = (chinese + english + math) / 3
-  print("最高平均",max(average))
