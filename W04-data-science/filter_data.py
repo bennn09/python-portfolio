@@ -1,3 +1,5 @@
+import pandas as pd
+df = pd.read_csv('data.csv')
 # 篩選數學大於 90 分的學生
 high_math = df[df['math'] > 90]
 print("數學優異名單：")
